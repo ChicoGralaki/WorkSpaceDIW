@@ -1,0 +1,48 @@
+body {
+  background-color: yellow;
+}
+
+h1 {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 60px;
+  font-style: oblique;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 55px;
+  font-style: italic;
+  text-align: center;
+}
+
+h3 {
+  color: cyan;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+
+h4 {
+  color: blue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  font-style: italic;
+  text-align: left;
+}
+
+p {
+  text-indent: 25px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.descricoes {
+  font-size: 30px;
+  text-align: justify;
+  color: red;
+}
