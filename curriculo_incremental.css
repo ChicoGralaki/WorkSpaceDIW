@@ -1,5 +1,8 @@
 body {
   background-color: yellow;
+  width: 80%;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -9,6 +12,10 @@ h1 {
   font-style: oblique;
   text-transform: uppercase;
   text-align: center;
+  background-color: coral;
+  padding: 20px 30px 10px 25px;
+  border: 10px dotted red;
+  margin: 20px;
 }
 
 h2 {
@@ -17,6 +24,12 @@ h2 {
   font-size: 55px;
   font-style: italic;
   text-align: center;
+  background-color: aqua;
+  width: 50%;
+  height: 100px;
+  padding: 50px;
+  margin: 20px auto;
+  border: 5px solid black;
 }
 
 h3 {
@@ -25,6 +38,11 @@ h3 {
   font-size: 50px;
   font-style: italic;
   text-align: center;
+  background-color: lightgray;
+  padding: 15px;
+  margin: 10px auto;
+  width: 60%;
+  border-radius: 10px;
 }
 
 h4 {
@@ -33,16 +51,27 @@ h4 {
   font-size: 50px;
   font-style: italic;
   text-align: left;
+  margin: 10px;
 }
 
 p {
   text-indent: 25px;
   font-size: 18px;
   text-align: left;
+  background-color: wheat;
+  padding: 20px;
+  margin: 10px 0;
+  width: 500px;
+  box-sizing: border-box;
+  border: 2px solid gray;
 }
 
 .descricoes {
   font-size: 30px;
   text-align: justify;
   color: red;
+  background-color: lightyellow;
+  padding: 20px;
+  border-left: 5px solid darkred;
+  margin: 15px 0;
 }
