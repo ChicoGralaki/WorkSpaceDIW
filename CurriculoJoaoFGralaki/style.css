@@ -1,0 +1,103 @@
+body {
+    background-color: #d4d8f0;
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+  
+header {
+    background-color: #fffffe;
+    padding: 2rem;
+    border-bottom: 4px solid #eebbc3;
+    box-shadow: 0 4px 10px rgba(35, 41, 70, 0.1);
+}
+  
+.cabecario {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+  
+.cabecario img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #eebbc3;
+}
+  
+.cabecario__nomecargo .nome {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #232946;
+    margin: 0;
+}
+  
+.cabecario__nomecargo .cargo {
+    font-size: 1.1rem;
+    color: #232946;
+    margin-top: 0.3rem;
+}
+  
+.contato ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem 2rem;
+    margin: 0;
+}
+  
+.contato li {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    align-items: center;
+}
+  
+.links {
+    margin: 0;
+    font-weight: bold;
+    color: #232946;
+}
+  
+.contato a {
+    color: #eebbc3;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+  
+.contato a:hover {
+    color: #b8c1ec;
+}
+
+.conteudo {
+    background-color: #fffffe;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(35, 41, 70, 0.1);
+    border-radius: 12px;
+}
+  
+.conteudo section {
+    margin-bottom: 2rem;
+}
+  
+.conteudo h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #232946;
+    border-bottom: 2px solid #eebbc3;
+    padding-bottom: 0.3rem;
+}
+  
+.experiencia__lista {
+    list-style: disc inside;
+    padding-left: 1rem;
+    color: #232946;
+    line-height: 1.6;
+    font-size: 1rem;
+}
