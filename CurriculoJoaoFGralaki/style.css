@@ -1,103 +1,181 @@
-body {
-    background-color: #d4d8f0;
-    margin: 0;
-    font-family: "Segoe UI", sans-serif;
-}
-  
-header {
-    background-color: #fffffe;
-    padding: 2rem;
-    border-bottom: 4px solid #eebbc3;
-    box-shadow: 0 4px 10px rgba(35, 41, 70, 0.1);
-}
-  
-.cabecario {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-    margin-bottom: 1.5rem;
-}
-  
-.cabecario img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #eebbc3;
-}
-  
-.cabecario__nomecargo .nome {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #232946;
-    margin: 0;
-}
-  
-.cabecario__nomecargo .cargo {
-    font-size: 1.1rem;
-    color: #232946;
-    margin-top: 0.3rem;
-}
-  
-.contato ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.2rem 2rem;
-    margin: 0;
-}
-  
-.contato li {
-    display: flex;
-    flex-direction: row;
-    gap: 0.3rem;
-    align-items: center;
-}
-  
-.links {
-    margin: 0;
-    font-weight: bold;
-    color: #232946;
-}
-  
-.contato a {
-    color: #eebbc3;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s ease;
-}
-  
-.contato a:hover {
-    color: #b8c1ec;
-}
+    body {
+      background-color: #d4d8f0;
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
 
-.conteudo {
-    background-color: #fffffe;
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 900px;
-    box-shadow: 0 4px 10px rgba(35, 41, 70, 0.1);
-    border-radius: 12px;
-}
-  
-.conteudo section {
-    margin-bottom: 2rem;
-}
-  
-.conteudo h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #232946;
-    border-bottom: 2px solid #eebbc3;
-    padding-bottom: 0.3rem;
-}
-  
-.experiencia__lista {
-    list-style: disc inside;
-    padding-left: 1rem;
-    color: #232946;
-    line-height: 1.6;
-    font-size: 1rem;
-}
+    header {
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      background-color: #fffffe;
+      padding: 2rem;
+      border-bottom: 4px solid #eebbc3;
+      box-shadow: 0 4px 10px rgba(35, 41, 70, 0.1);
+    }
+
+    .cabecario {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .cabecario img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #eebbc3;
+    }
+
+    .cabecario__nomecargo .nome {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #232946;
+      margin: 0;
+    }
+
+    .cabecario__nomecargo .cargo {
+      font-size: 1.1rem;
+      color: #232946;
+      margin-top: 0.3rem;
+    }
+
+    .contato ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem 2rem;
+      margin: 0;
+    }
+
+    .contato li {
+      display: flex;
+      flex-direction: row;
+      gap: 0.3rem;
+      align-items: center;
+    }
+
+    .links {
+      margin: 0;
+      font-weight: bold;
+      color: #232946;
+    }
+
+    .contato a {
+      color: #eebbc3;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    .contato a:hover {
+      color: #b8c1ec;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 2rem;
+      max-width: 1100px;
+      margin: 2rem auto;
+    }
+
+    .skills {
+      background-color: #fffffe;
+      padding: 2rem;
+      box-shadow: 0 4px 15px rgba(35, 41, 70, 0.35);
+      border-radius: 16px;
+      height: fit-content;
+      transition: transform 0.3s ease;
+    }
+
+    .skills:hover {
+      transform: scale(1.01);
+    }
+
+    .skills h1 {
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+      color: #232946;
+      border-bottom: 2px solid #eebbc3;
+      padding-bottom: 0.3rem;
+      text-align: center;
+    }
+
+    .skill-item {
+      margin-bottom: 1rem;
+    }
+
+    .skill-name {
+      font-weight: bold;
+      color: #232946;
+      margin-bottom: 0.3rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 10px;
+      background-color: #e0e0e0;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #eebbc3, #b8c1ec);
+      border-radius: 6px;
+      transition: width 0.5s ease-in-out;
+    }
+
+    .conteudo {
+      background-color: #fffffe;
+      padding: 2rem;
+      box-shadow: 0 4px 10px rgba(35, 41, 70, 0.35);
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    .conteudo:hover {
+      transform: scale(1.01);
+    }
+
+    .conteudo section {
+      margin-bottom: 2rem;
+    }
+
+    .conteudo h1 {
+      font-family: Poppins , sans-serif;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #232946;
+      border-bottom: 2px solid #eebbc3;
+      padding-bottom: 0.3rem;
+    }
+
+    .experiencia__lista {
+      list-style: disc inside;
+      padding-left: 1rem;
+      color: #232946;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+      .skills, .conteudo {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
